@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" language="JavaScript" src="nuclearforce.js"></script>
+		<style>
+			.td_b{
+				border-top:solid 1px black;
+				text-align:right;
+			}
+		</style>
+		<title>
+			Nuclear Binding Energies
+		</title>
+	</head>
+	<body>
+		<p style="text-decoration:underline;text-align:center;">Nuclear Binding Energies</p>
+		<table id="main_flow">
+			<tbody>
+				<tr>
+					<td>A = </td>
+					<td><input type="text" id="q_A"></td>
+				</tr>
+				<tr>
+					<td>Z = </td>
+					<td><input type="text" id="q_Z"></td>
+				</tr>
+				<tr>
+					<td>mass = </td>
+					<td><input type="text" id="q_mass"></td>
+				</tr>
+				<tr id="r_nn">
+					<td>N = </td>
+					<td id="nn"></td>
+				</tr>
+				<tr id="r_eb">
+					<td>E<sub>B</sub> = </td>
+					<td id="eb"></td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="main_calc">Calculate</button>
+		<button id="main_clear">Clear</button>
+	</body>
+</html>
